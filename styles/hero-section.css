@@ -1,16 +1,16 @@
-.hero-section{
-  position: relative;  
-}
+
 .hero-section-background-image{
   width: 100%;
-  object-fit: cover;
 }
-.section-overlay{
+.hero-section{
+  position: relative;
+}
+.hero-section-overlay{
   position: absolute;
-  background-color: black;
   top: 0px;
-  bottom: 0px;
   right: 0px;
+  bottom: 0px;
   left: 0px;
+  background-color: black;
   opacity: 0.6;
 }
