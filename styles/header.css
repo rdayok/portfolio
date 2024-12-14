@@ -20,25 +20,46 @@ nav a{
   text-decoration: none;
   color: white;
   font-weight: 500;
-  padding: 10px;
+  margin-right: 15px;
+}
+nav a:hover{
+  color: rgb(157, 162, 189);
+}
+.logo-container{
+  display: flex;
+  align-items: center;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+.logo-container p{
+  color: white;
+  font-weight: bold;
+  font-size: 25px;
+  margin: 0;
 }
 .logo{
-  height: 36px;
-  width: 118px;
+  height: 40px;
+  margin-right: 10px;
+  border-radius: 20px;
 }
-.hero-section{
-  position: relative;  
+nav{
+  display: flex;
+  align-items: center;
 }
-.hero-section-background-image{
-  width: 100%;
-  object-fit: cover;
-}
-.section-overlay{
-  position: absolute;
-  background-color: black;
-  top: 0px;
-  bottom: 0px;
-  right: 0px;
-  left: 0px;
-  opacity: 0.6;
+nav button{
+  height: 30px;
+  width: 30px;
+  border: none;
+  background-color: transparent;
+  margin-left: 10px;
+  border-radius: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+} 
+.facebook-icon,
+.linkedIn-icon{
+  height: 100%;
 }
