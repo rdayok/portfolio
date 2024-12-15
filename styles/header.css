@@ -4,16 +4,16 @@ header{
   right: 0;
   left: 0;
   height: 60px;
-  border-bottom: 1px solid gray;
   display: flex;
   align-items: center;
   justify-content: center;
   z-index: 100;
+  transform: background 0.15s ease;
 }
-header .container{
+.container{
   display: flex;
   align-items: center;
-  width: 1300px;
+  width: 1310px;
   justify-content: space-between;
 }
 nav a{
