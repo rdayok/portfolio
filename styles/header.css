@@ -3,17 +3,17 @@ header{
   top: 0;
   right: 0;
   left: 0;
-  height: 60px;
+  height: 100px;
   display: flex;
   align-items: center;
   justify-content: center;
   z-index: 100;
-  transform: background 0.15s ease;
+  transition: background 0.15s, height 0.15s;
 }
 .container{
   display: flex;
   align-items: center;
-  width: 1310px;
+  width: 1300px;
   justify-content: space-between;
 }
 nav a{

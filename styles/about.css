@@ -1,0 +1,57 @@
+.about{
+  background-color: rgb(247 249 251);
+  padding-top: 124px;
+  padding-bottom: 84px;
+  display: flex;
+  justify-content: center;
+}
+.about-container{
+  display: flex;
+  width: 1110px;
+}
+.user-summary{
+  width: 1000px;
+  /* background-color: antiquewhite; */
+}
+
+.user-summary-heading{
+  font-size: 32px;
+  color: rgb(36, 38, 42);
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+ 
+}
+.user-summary-text{
+  color: rgb(85, 89, 94);
+  width: 317px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  font-family: "Open Sans", sans-serif;
+  letter-spacing: 0.4px;
+}
+.job-experience{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  /* background-color: azure; */
+  padding: 30px 20px 10px 150px;
+}
+.employment{
+  width: 380px;
+}
+.employment-date{
+  color: rgb(11, 54, 168);
+  font-size: 13px;
+  font-weight: 650;
+  letter-spacing: 0.5px;
+}
+.employee{
+  font-size: 16px;
+  font-weight: 650;
+  letter-spacing: 1px;
+  color: rgb(36, 38, 42);
+  /* margin: 100px; */
+}
+
+
+
