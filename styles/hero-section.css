@@ -40,7 +40,7 @@
   letter-spacing: 5px;
   font-size: 15px;  
 }
-.hire-me-button{
+.discover-button{
   margin-top: 50px;
   border: none;
   color: white;
@@ -50,7 +50,7 @@
   font-size: 15px;
   cursor: pointer;
 }
-.hire-me-button:hover{
+.discover-button:hover{
   border: 1px solid white;
   background-color: rgb(36, 38, 42);
 }

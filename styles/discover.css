@@ -1,17 +1,16 @@
-.about{
+.discover{
   background-color: rgb(247 249 251);
   padding-top: 124px;
   padding-bottom: 84px;
   display: flex;
   justify-content: center;
 }
-.about-container{
+.discover-container{
   display: flex;
   width: 1110px;
 }
 .user-summary{
   width: 1000px;
-  /* background-color: antiquewhite; */
 }
 
 .user-summary-heading{
@@ -33,8 +32,7 @@
 .job-experience{
   display: grid;
   grid-template-columns: 1fr 1fr;
-  /* background-color: azure; */
-  padding: 30px 20px 10px 150px;
+  padding: 30px 0px 10px 140px;
 }
 .employment{
   width: 380px;
