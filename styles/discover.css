@@ -8,9 +8,10 @@
 .discover-container{
   display: flex;
   width: 1110px;
+  justify-content: space-between; 
 }
 .user-summary{
-  width: 1000px;
+  width: 317px;
 }
 
 .user-summary-heading{
@@ -18,24 +19,20 @@
   color: rgb(36, 38, 42);
   font-weight: 600;
   font-family: "Poppins", sans-serif;
- 
 }
 .user-summary-text{
   color: rgb(85, 89, 94);
-  width: 317px;
   font-weight: 400;
   font-size: 16px;
   line-height: 26px;
   font-family: "Open Sans", sans-serif;
   letter-spacing: 0.4px;
 }
-.job-experience{
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  padding: 30px 0px 10px 140px;
-}
-.employment{
-  width: 380px;
+.employment-list{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-top: 5px
 }
 .employment-date{
   color: rgb(11, 54, 168);
@@ -48,7 +45,14 @@
   font-weight: 650;
   letter-spacing: 1px;
   color: rgb(36, 38, 42);
-  /* margin: 100px; */
+  margin: 10px 0px 5px 0px;
+}
+.role{
+  color: rgb(85, 89, 94);
+  font-weight: 400;
+  font-size: 16px;
+  font-family: "Open Sans", sans-serif;
+  letter-spacing: 0.4px;
 }
 
 
